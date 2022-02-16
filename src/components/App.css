@@ -28,3 +28,17 @@
 
 .infoBoard{display:inline-block;}
 .record{display:inline-block;}
+body{background-color:#89CFF0;}
+.wrap{display:flex; flex-direction:column; align-items: center; justify-content: center}
+.wrap > .date-box{display: flex;}
+
+.wrap > .bottom-section{display:flex; flex-direction:row;width: 80%; justify-content: center;}
+.wrap > .bottom-section > .add-container{width:35%; align-items:flex-start;}
+.wrap > .bottom-section > .add-container > .task-box > .task, .feedingAmount, .addBtn{height:35px; font-size:20px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;}
+.wrap > .bottom-section > .add-container > .task-box > .task{width:30%;}
+.wrap > .bottom-section > .add-container > .task-box > .feedingAmount{width:20%;}
+.wrap > .bottom-section > .add-container > .task-box > .addBtn{width:20%; border-radius: 5px;}
+.wrap > .bottom-section > .record-container{width:65%;}
+.wrap > .bottom-section > .record-container > .list-wrap{display:flex; flex-direction:column; row-gap:5px;}
+.wrap > .bottom-section > .record-container > .list-wrap > .list-content {width: 60%; height: 60px; background-color: bisque; border:solid 2px black; border-radius:15px; display:flex; justify-content: space-around; align-items: center;}
+.wrap > .bottom-section > .record-container > .list-wrap > .list-content > .emoji {font-size:30px;}
